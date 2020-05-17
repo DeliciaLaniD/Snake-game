@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+    <div class="content">
+      <div class="btn startBtn">
+        <button></button>
+      </div>
+      <div class="btn pauseBtn">
+        <button></button> 
+      </div>
+      <div id="snakeWrap">
+        <div class="snakeHead"></div>
+        <div class="snakeBody"></div>
+        <!-- <div class="food"></div> -->
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script>
+      new Promise((resolve,reject) => {
+        setTimeout(function(){
+          resolve(123)
+        },1000)
+      }).then(res => {
+        console.log(res)
+      })
+    </script>
+	</body>
+</html>
